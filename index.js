@@ -44,7 +44,7 @@ app.delete('/api/persons/:id', (req, res) => {
   res.json(persons);
 });
 
-// ** POST
+// ** POST ** \\
 
 app.post('/api/persons', (req, res) => {
   const personId = Math.floor(Math.random() * 100);
@@ -70,6 +70,8 @@ app.post('/api/persons', (req, res) => {
   }
   //! Error handling
 });
+
+// ** POST end ** \\
 
 // ! PORT
 
